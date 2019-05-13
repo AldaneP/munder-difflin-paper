@@ -1,0 +1,114 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.logo {
+  height: 100px;
+  width: 130px;
+  display: inline-block;
+  margin: 15px;
+}
+
+ul li a {
+  display: inline;
+  padding: 0 1.0%;
+}
+
+.background {
+  background-color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  positon: fixed;
+  top: 0;
+  background-color: white;
+  padding-right: 7%;
+  width: 100%;
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0px 30px;
+  width: 100%;
+  font-family:cursive;
+
+}
+
+.section-1 {
+  height: 800px;
+  background-color: #0f52ba;
+  font-size: 10px;
+  width: 100%;
+}
+
+/* h1,h2,h3,h4 {
+
+
+} */
+
+p {
+  color: #858585;
+  padding-bottom: 2%;
+  width: 60%;
+  margin-left: 10%;
+}
+
+img {
+  width: 30%;
+  padding-left: 1%;
+  Padding-right: 1%;
+  height: 250px;
+}
+
+
+
+
+.section-2 {
+  height: 800px;
+  width: 100%;
+  background-color: white;
+
+}
+
+
+/* .img-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+} */
+
+
+.section-3 {
+  height: 800px;
+  width: 100%;
+  background-color: #0f52ba;
+  font-size: 10px;
+  font-style: italic;
+}
+
+
+
+
+.section-4 {
+  background-color: white;
+  height: 800px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.img-4 {
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
