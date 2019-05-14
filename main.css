@@ -45,8 +45,6 @@ h1,h2,h3,h4 {
   background: black;
   color: white;
   font-size: 30px;
-
-
 }
 
 p {
@@ -109,13 +107,30 @@ figure {
   margin: 0.5em;
   padding: 0.5em;
 }
-.scaled {
+/* .scaled {
   width: 90%;
+} */
+
+.container {
+  display: grid;
+  grid-template: 100px / 450px 450px 450px;
 }
 
-.img-4 {
-
+.container {
+  display: grid;
+  grid-template: 100px / 450px 450px 450px;
 }
+
+.grid-item {
+  width: 250px;
+}
+
+.grid-item0 {
+  width: 250px;
+}
+
+
+
 /*
 .footer {
   position: fixed;

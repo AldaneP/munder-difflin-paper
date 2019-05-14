@@ -1,7 +1,7 @@
 // let dunder = document.getElementsByTagName("section")
 //
 // window.addEventListener('scroll', function() {
-//   if (window.scrollTo(0,161)) {
+//   if (window.scrollTo = 0,161)) {
 //     dunder[0].classList.remove('hidden')
 //     dunder[0].classList.add('show')
 //   }
