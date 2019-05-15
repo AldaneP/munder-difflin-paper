@@ -1,23 +1,20 @@
-// let dunder = document.getElementsByTagName("section")
-//
-// window.addEventListener('scroll', function() {
-//   if (window.scrollTo = 0,161)) {
-//     dunder[0].classList.remove('hidden')
-//     dunder[0].classList.add('show')
-//   }
-//
-//   if (window.scrollTo(0,968)) {
-//     dunder[1].classList.remove('hidden')
-//     dunder[1].classList.add('show')
-//   }
-//
-//   if (window.scrollTo(0,1796)) {
-//     dunder[2].classList.remove('')
-//     dunder[2].classList.add('')
-//   }
-//
-//   if (window.scrollTo(0,2554)) {
-//     dunder[3].classList.remove('hidden')
-//     dunder[3].classList.add('show')
-//   }
-// })
+let section1 = document.getElementsByTagName("section")
+
+window.addEventListener('scroll', function() {
+  console.log(window.scrollY)
+
+  if (window.scrollY > 10) {
+    section1[0].classList.remove('hidden')
+    section1[0].classList.add('show')
+  }
+
+  if (window.scrollY > 400) {
+    section1[1].classList.remove('hidden')
+    section1[1].classList.add('show')
+  }
+
+  if (window.scrollY > 1200) {
+    section1[2].classList.remove('hidden')
+    section1[2].classList.add('show')
+  }
+})

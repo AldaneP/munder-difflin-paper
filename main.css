@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: black;
   margin: 0;
 }
 
@@ -7,19 +7,27 @@ body {
   height: 100px;
   width: 130px;
   display: inline-block;
+  border-radius: 50%;
   margin: 15px;
+
+}
+
+.logo:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 ul li a {
   display: inline;
   padding: 0 1.0%;
+  font-size: 25px;
 }
 
 #navbar {
   overflow: hidden;
   positon: fixed;
   top: 0;
-  background-image: url("https://media.giphy.com/media/10l2FXjFq1rXKU/giphy.gif");
+  background-color: black;
   padding-right: 7%;
   width: 100%;
 
@@ -29,7 +37,6 @@ ul li a {
   display: inline;
   padding: 0px 30px;
   width: 100%;s
-
 }
 
 .section-1 {
@@ -39,19 +46,105 @@ ul li a {
   width: 100%;
 }
 
-h1,h2,h3,h4 {
+.fgenie {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 8px;
+}
+.container0 {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container0:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* p {
+  color: white;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 35px;
+} */
+
+h1,h4 {
   padding: 60px;
   text-align: center;
-  background: black;
+  background-color: black;
   color: white;
   font-size: 30px;
 }
 
-p {
-  color: #858585;
-  padding-bottom: 2%;
-  width: 60%;
-  margin-left: 10%;
+h2 {
+  padding: 60px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 30px;
 }
 
 img {
@@ -62,30 +155,28 @@ img {
   border-radius: 8px;
 }
 
-img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
 .section-2 {
+  background-color: white;
   height: 800px;
   width: 100%;
-  background-color: white;
-
+  font-size: 30px;
+  text-align: center;
 }
 
+.container1 {
+  display: grid;
+  grid-template: 100px / 450px 450px 450px;
+}
 
-/* .img-2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-} */
-
+.grid-item1 {
+  width: 297px;
+}
 
 .section-3 {
   height: 800px;
   width: 100%;
+  font-size: 30px;
+  text-align: center;
   background-color: #0f52ba;
 }
 
@@ -97,46 +188,11 @@ img:hover {
   text-align: center;
 }
 
-figure {
-  float: left;
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  text-indent: 0;
-  border: 4px dotted blue;
-  margin: 0.5em;
-  padding: 0.5em;
-}
-/* .scaled {
-  width: 90%;
-} */
-
-.container {
+.container2 {
   display: grid;
   grid-template: 100px / 450px 450px 450px;
 }
 
-.container {
-  display: grid;
-  grid-template: 100px / 450px 450px 450px;
+.grid-item2 {
+  width: 297px;
 }
-
-.grid-item {
-  width: 250px;
-}
-
-.grid-item0 {
-  width: 250px;
-}
-
-
-
-/*
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  text-align: center;
-} */
